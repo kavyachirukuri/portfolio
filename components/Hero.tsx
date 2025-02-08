@@ -32,7 +32,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider md-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Kavya, React.js Developer based in Hyderabad.
+            Hi, I&apos;m Kavya, React.js Developer based in India.
           </p>
 
           <a href="#about">

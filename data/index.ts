@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -81,30 +79,14 @@ export const projects = [
     link: "https://stack-overflow-nextjs13-kavya-chirukuris-projects.vercel.app/",
     githubRepo: "https://github.com/kavyachirukuri/stack_overflow_nextjs13",
   },
-  // {
-  //   id: 2,
-  //   title: "Yoom - Video Conferencing App",
-  //   des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-  //   img: "/p2.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/zoom-clone",
-  // },
-  // {
-  //   id: 3,
-  //   title: "AI Image SaaS - Canva Application",
-  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-  //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-  //   link: "https://github.com/adrianhajdin/ai_saas_app",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "https://github.com/adrianhajdin/iphone",
-  // },
+  {
+    id: 2,
+    title: "Crypto Watchlist App",
+    des: "A platform that helps users track real-time cryptocurrency prices, manage their favorite coins, and search for specific coins easily",
+    img: "/cryptowatchlist.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://cryptocurrencytracker-kc.netlify.app/",
+  },
 ];
 
 export const testimonials = [
@@ -183,25 +165,11 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Junior Software Engineer",
+    title: "Software Development Engineer",
     desc: "Designed and developed health sector platform using Next.js.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
-  // {
-  // id: 3,
-  // title: "Freelance App Dev Project",
-  // desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-  // className: "md:col-span-2", // change to md:col-span-2
-  // thumbnail: "/exp3.svg",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
 ];
 
 export const socialMedia = [
@@ -210,10 +178,6 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/kavyachirukuri",
   },
-  // {
-  //   id: 2,
-  //   img: "/twit.svg",
-  // },
   {
     id: 3,
     img: "/link.svg",
